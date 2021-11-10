@@ -1,11 +1,11 @@
 // rotary-basic example
-// pins A, B, and Push
+
 #include "rotary_basic.h"
 
 void setup() {
   Serial.begin(115200);
+  // pins A, B, and Push
   setupRotaryBasic(16, 0, 13);
-
 }
 
 void loop() {

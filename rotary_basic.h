@@ -18,7 +18,7 @@ int updateRotaryBasic() {
     int pinB = digitalRead(rotaryPins[1]);
     int pinPush = digitalRead(rotaryPins[2]);
     
-    // Serial.print(pinA);Serial.print(" "); Serial.print(pinB);Serial.print(" "); Serial.println(pinPush);
+//     Serial.print(pinA);Serial.print(" "); Serial.print(pinB);Serial.print(" "); Serial.println(pinPush);
     
     if (pinA == 1 && pinB == 1 && prevA == 0 && state == 0 && prevB == 0) {
 //      Serial.print("CCW "); Serial.print(pinA); Serial.print(" "); Serial.print(pinB);Serial.print(" "); Serial.print(prevA); Serial.print(" "); Serial.println(prevB);
