@@ -7,7 +7,7 @@ int counter = 0;
 void setup() {
   Serial.begin(115200);
   // pins A, B, and Push
-  setupRotaryBasic(33, 37, 38);
+  setupRotaryBasic(15, 16, 17);
 }
 
 void loop() {
